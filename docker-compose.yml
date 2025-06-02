@@ -1,8 +1,8 @@
-version: '3.8'
+version: "3"
 
 services:
   minidash:
-    build: .
+    image: ghcr.io/mandrasch/minidash:latest
     ports:
-      - "9080:8000"
+      - "9080:80"
     restart: unless-stopped
