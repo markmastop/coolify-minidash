@@ -1,12 +1,8 @@
-version: '3'
+version: '3.8'
+
 services:
   minidash:
-    image: minidash/minidash:latest
-    restart: unless-stopped
+    build: .
     ports:
-      - "9080:80"
-    environment:
-      - SOME_ENV_VAR=waarde
-
-volumes:
-  minidash-data:
+      - "9080:8000"
+    restart: unless-stopped
