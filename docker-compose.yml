@@ -4,5 +4,5 @@ services:
   minidash:
     image: phntxx/minidash
     ports:
-      - "3000:9080"
+      - "9080:3080"
     restart: unless-stopped
