@@ -5,5 +5,5 @@ services:
     image: phntxx/minidash
     container_name: minidash
     ports:
-      - "3001:3001"  # maps port 3001 on host to port 3000 in container
+      - "3001:3000"  # maps port 3001 on host to port 3000 in container
     restart: unless-stopped
