@@ -2,7 +2,7 @@ version: "3"
 
 services:
   minidash:
-    image: ghcr.io/mandrasch/minidash:latest
+    image: silsha/minidash
     ports:
       - "9080:80"
     restart: unless-stopped
